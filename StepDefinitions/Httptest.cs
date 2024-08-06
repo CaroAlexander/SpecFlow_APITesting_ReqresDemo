@@ -30,7 +30,7 @@ namespace RyderDemo_SpecFlow.StepDefinitions
             specFlowOutputHelper.WriteLine(responsebody);
         }
 
-        [Then(@"request should be a success with (.*)s")]
+        [Then(@"request should be a success with (.*)s codes")]
         public void ThenRequestShouldBeASuccessWithS(int p0)
         {
             //throw new PendingStepException();

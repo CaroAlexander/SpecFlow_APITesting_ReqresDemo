@@ -105,9 +105,10 @@ C:\ws\CGI\Ryder\SpecFlow_APITesting_ReqresDemo\SpecFlow_APITesting_ReqresDemo\ob
 C:\ws\CGI\Ryder\SpecFlow_APITesting_ReqresDemo\SpecFlow_APITesting_ReqresDemo\obj\Debug\net6.0\SpecFlow_APITesting_ReqresDemo.AssemblyInfoInputs.cache
 C:\ws\CGI\Ryder\SpecFlow_APITesting_ReqresDemo\SpecFlow_APITesting_ReqresDemo\obj\Debug\net6.0\SpecFlow_APITesting_ReqresDemo.AssemblyInfo.cs
 C:\ws\CGI\Ryder\SpecFlow_APITesting_ReqresDemo\SpecFlow_APITesting_ReqresDemo\obj\Debug\net6.0\SpecFlow_APITesting_ReqresDemo.csproj.CoreCompileInputs.cache
+C:\ws\CGI\Ryder\SpecFlow_APITesting_ReqresDemo\SpecFlow_APITesting_ReqresDemo\obj\Debug\net6.0\SpecFlow_APITesting_ReqresDemo.sourcelink.json
+C:\ws\CGI\Ryder\SpecFlow_APITesting_ReqresDemo\SpecFlow_APITesting_ReqresDemo\obj\Debug\net6.0\SpecFlow.85CD1A05.Up2Date
 C:\ws\CGI\Ryder\SpecFlow_APITesting_ReqresDemo\SpecFlow_APITesting_ReqresDemo\obj\Debug\net6.0\SpecFlow_APITesting_ReqresDemo.dll
 C:\ws\CGI\Ryder\SpecFlow_APITesting_ReqresDemo\SpecFlow_APITesting_ReqresDemo\obj\Debug\net6.0\refint\SpecFlow_APITesting_ReqresDemo.dll
 C:\ws\CGI\Ryder\SpecFlow_APITesting_ReqresDemo\SpecFlow_APITesting_ReqresDemo\obj\Debug\net6.0\SpecFlow_APITesting_ReqresDemo.pdb
 C:\ws\CGI\Ryder\SpecFlow_APITesting_ReqresDemo\SpecFlow_APITesting_ReqresDemo\obj\Debug\net6.0\SpecFlow_APITesting_ReqresDemo.genruntimeconfig.cache
 C:\ws\CGI\Ryder\SpecFlow_APITesting_ReqresDemo\SpecFlow_APITesting_ReqresDemo\obj\Debug\net6.0\ref\SpecFlow_APITesting_ReqresDemo.dll
-C:\ws\CGI\Ryder\SpecFlow_APITesting_ReqresDemo\SpecFlow_APITesting_ReqresDemo\obj\Debug\net6.0\SpecFlow.85CD1A05.Up2Date
