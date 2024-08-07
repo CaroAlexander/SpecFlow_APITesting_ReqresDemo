@@ -8,8 +8,6 @@ namespace SpecFlow_APITesting_ReqresDemo.Support
 {
     public class Datamodel
     {
-
-
         
             public int page { get; set; }
             public int per_page { get; set; }
