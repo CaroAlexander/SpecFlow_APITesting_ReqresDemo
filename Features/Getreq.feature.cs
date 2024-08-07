@@ -103,7 +103,7 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 7
- testRunner.Given("the user sends a get request with url as \"https://reqres.in/api/users/4\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("the user sends a get request with url as \"https://reqres.in/api/users?page=2\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 8
  testRunner.Then("request should be a success with 200s codes", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");

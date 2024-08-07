@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpecFlow_APITesting_ReqresDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+751602cc889ee70496137b92d5f7a55347c785e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a6e31d7f5262db303200ebdabd02f0995a427c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpecFlow_APITesting_ReqresDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpecFlow_APITesting_ReqresDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
