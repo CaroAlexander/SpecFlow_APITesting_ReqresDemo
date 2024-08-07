@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿using Newtonsoft.Json;
+using NUnit.Framework;
+using SpecFlow_APITesting_ReqresDemo.Support;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,6 +30,17 @@ namespace RyderDemo_SpecFlow.StepDefinitions
             response.EnsureSuccessStatusCode();
             responsebody = await response.Content.ReadAsStringAsync();
             specFlowOutputHelper.WriteLine(responsebody);
+
+            var desdata = JsonConvert.DeserializeObject<Datamodel>(responsebody);
+
+            specFlowOutputHelper.WriteLine("after deserialization value is: " + desdata.page.ToString());
+            foreach (var item in desdata.data)
+            {
+
+                specFlowOutputHelper.WriteLine(item.id.ToString());
+
+            }
+
         }
 
         [Then(@"request should be a success with (.*)s codes")]
