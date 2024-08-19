@@ -4,5 +4,5 @@ A short summary of the feature
  
 @tag1
 Scenario: GET request testing
-	Given the user sends a get request with url as "https://reqres.in/api/users?page=2"
+	Given the user sends a get request with url as "https://reqres.in/api/users?page=1"
 	Then request should be a success with 200s codes

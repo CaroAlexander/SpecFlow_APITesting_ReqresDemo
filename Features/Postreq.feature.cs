@@ -28,7 +28,7 @@ namespace SpecFlow_APITesting_ReqresDemo.Features
         
         private string[] _featureTags = ((string[])(null));
         
-#line 1 "post.feature"
+#line 1 "Postreq.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]
@@ -74,14 +74,14 @@ namespace SpecFlow_APITesting_ReqresDemo.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("post request testing")]
-        [NUnit.Framework.CategoryAttribute("tag1")]
-        public virtual void PostRequestTesting()
+        [NUnit.Framework.DescriptionAttribute("post request testing to Reqres.in")]
+        [NUnit.Framework.CategoryAttribute("Reqres.in")]
+        public virtual void PostRequestTestingToReqres_In()
         {
             string[] tagsOfScenario = new string[] {
-                    "tag1"};
+                    "Reqres.in"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("post request testing", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("post request testing to Reqres.in", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 6
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -107,6 +107,46 @@ this.ScenarioInitialize(scenarioInfo);
 #line hidden
 #line 8
  testRunner.Then("user should get a success response", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("post request testing to reqbin.com")]
+        [NUnit.Framework.CategoryAttribute("reqbin.com")]
+        public virtual void PostRequestTestingToReqbin_Com()
+        {
+            string[] tagsOfScenario = new string[] {
+                    "reqbin.com"};
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("post request testing to reqbin.com", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+#line 11
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            bool isScenarioIgnored = default(bool);
+            bool isFeatureIgnored = default(bool);
+            if ((tagsOfScenario != null))
+            {
+                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((this._featureTags != null))
+            {
+                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((isScenarioIgnored || isFeatureIgnored))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 12
+ testRunner.Given("the user sends a post request to reqbin with url as \"https://reqbin.com/echo/post" +
+                        "/json\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 13
+ testRunner.Then("users should get a success response", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
